@@ -57,7 +57,7 @@ public class Player : MonoBehaviour
     public void ChangeDirections()
     {
         xPos *= -1;
-        playerTransform.rotation = Quaternion.Euler(0, (xPos <= -1) ? -35 : 35, 0);
+        playerTransform.rotation = Quaternion.Euler(0, (xPos <= -1) ? -125 : 125, 0);
     }
     private void OnTriggerEnter(Collider other)
     {
