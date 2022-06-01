@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
             //new Vector3(xPos * Time.deltaTime, 0, forwardSpeed * Time.deltaTime);
         return moveVector;
     }
-
+    //ilk commit
     public void ChangeDirections()
     {
         // burda islefti setliyoruz xpos eðer 0dan küçükse true geliyo büyükse false
